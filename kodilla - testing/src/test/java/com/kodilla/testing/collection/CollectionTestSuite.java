@@ -32,8 +32,8 @@ public class CollectionTestSuite {
     @Test
     public void testOddNumbersExterminatorNormalList(){
         //Given
-        ArrayList<Integer> list = new ArrayList<Integer>(Arrays.asList(234,567,22,899,12,15,3,5));
-        ArrayList<Integer> oddList = new ArrayList<Integer>(Arrays.asList(234,22,12));
+        ArrayList<Integer> list = new ArrayList<Integer>(Arrays.asList(54,101,22,69,10,15,3,5));
+        ArrayList<Integer> oddList = new ArrayList<Integer>(Arrays.asList(54,22,10));
         //When
         ArrayList<Integer> listNumbers=OddNumbersExterminator.exterminate(list);
         System.out.println("Testing"+listNumbers);
